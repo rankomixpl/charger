@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodge Charger Wynajem - Śluby, Imprezy, Przejażdżki</title>
+    <meta name="description"
+        content="Wynajmij legendarnego Dodge'a Chargera 3.6L na ślub, imprezę okolicznościową lub przejażdżkę. Poczuj moc i styl amerykańskiej legendy w Krakowie i okolicach.">
+    <meta name="keywords"
+        content="Dodge Charger wynajem, auto do ślubu Kraków, wynajem aut sportowych, Dodge Charger ślub, imprezy okolicznościowe, przejażdżki sportowym autem">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://charger.dev-set.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://charger.dev-set.com/">
+    <meta property="og:title" content="Dodge Charger Wynajem - Poczuj Moc Legendy">
+    <meta property="og:description"
+        content="Ekskluzywny wynajem Dodge'a Chargera 3.6L na śluby, eventy i przejażdżki. Zarezerwuj termin już dziś!">
+    <meta property="og:image" content="https://charger.dev-set.com/assets/hero.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://charger.dev-set.com/">
+    <meta property="twitter:title" content="Dodge Charger Wynajem - Poczuj Moc Legendy">
+    <meta property="twitter:description"
+        content="Ekskluzywny wynajem Dodge'a Chargera 3.6L na śluby, eventy i przejażdżki.">
+    <meta property="twitter:image" content="https://charger.dev-set.com/assets/hero.png">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRental",
+      "name": "ChargerRent",
+      "image": "https://charger.dev-set.com/assets/hero.png",
+      "@id": "https://charger.dev-set.com",
+      "url": "https://charger.dev-set.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kraków",
+        "addressCountry": "PL"
+      },
+      "priceRange": "$$$",
+      "description": "Wynajem Dodge Charger 3.6L na śluby i imprezy.",
+      "areaServed": "Kraków i okolice"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Placeholder for FontAwesome, might need a real kit or CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">CHARGER<span class="highlight">RENT</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero" data-i18n="nav.home">Start</a></li>
+            <li><a href="#services" data-i18n="nav.services">Oferta</a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery">Galeria</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Kontakt</a></li>
+            <li class="lang-switch">
+                <button onclick="changeLang('pl')" class="lang-btn active">PL</button> |
+                <button onclick="changeLang('en')" class="lang-btn">EN</button>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-i18n="hero.title">POCZUJ MOC <br><span class="highlight">LEGENDY</span></h1>
+            <p data-i18n="hero.subtitle">Dodge Charger 3.6L - Idealny na Twój ślub, event lub niezapomnianą przejażdżkę.
+            </p>
+            <a href="#contact" class="btn-primary" data-i18n="hero.cta">Rezerwuj Termin</a>
+        </div>
+    </header>
+
+    <section id="services" class="services-section">
+        <h2 data-i18n="services.title">Nasza Oferta</h2>
+        <div class="cards-container">
+            <div class="card">
+                <i class="fa-solid fa-rings-wedding card-icon"></i>
+                <h3 data-i18n="services.wedding.title">Śluby</h3>
+                <p data-i18n="services.wedding.desc">Ekskluzywny transport Państwa Młodych. Zróbcie wejście w wielkim
+                    stylu.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-champagne-glasses card-icon"></i>
+                <h3 data-i18n="services.event.title">Imprezy</h3>
+                <p data-i18n="services.event.desc">Studniówki, wieczory kawalerskie/panieńskie, eventy firmowe.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-car-side card-icon"></i>
+                <h3 data-i18n="services.ride.title">Przejażdżki</h3>
+                <p data-i18n="services.ride.desc">Poczuj adrenalinę na miejscu pasażera. Godzinna jazda pełna emocji.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2 data-i18n="gallery.title">Galeria</h2>
+        <div class="gallery-grid">
+            <img src="assets/wedding.png" alt="Dodge Charger przystrojony do ślubu" class="gallery-item">
+            <img src="assets/event.png" alt="Czarny Dodge Charger przed klubem na evencie" class="gallery-item">
+            <img src="assets/interior.png" alt="Nowoczesne wnętrze Dodge Chargera z podświetleniem"
+                class="gallery-item">
+            <img src="assets/hero.png" alt="Dodge Charger 3.6L profilem w nocy" class="gallery-item">
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 data-i18n="contact.title">Zarezerwuj Teraz</h2>
+        <div class="contact-container" style="justify-content: center; text-align: center;">
+            <div class="contact-info" style="flex: 0 1 auto;">
+                <p style="justify-content: center;"><i class="fa-solid fa-phone"></i>
+                    <span id="phone-display">
+                        737 ... <button class="btn-link" onclick="revealPhone()"
+                            data-i18n="contact.show_phone">(pokaż)</button>
+                    </span>
+                </p>
+                <p style="justify-content: center;"><i class="fa-solid fa-envelope"></i>
+                    <span id="email-display">
+                        pawel... <button class="btn-link" onclick="revealEmail()"
+                            data-i18n="contact.show_phone">(pokaż)</button>
+                    </span>
+                </p>
+                <p style="justify-content: center;"><i class="fa-solid fa-location-dot"></i> <span
+                        data-i18n="contact.location">Kraków i okolice</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> ChargerRent. Powered by <a href="https://dev-set.com" target="_blank"
+                style="color: var(--primary); text-decoration: none;">dev-set</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
